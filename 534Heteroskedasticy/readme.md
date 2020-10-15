@@ -5,5 +5,22 @@ The 2nd version is reading files directly from Oracle creating an engine and usi
 Soon to be also reproduced in R
 To recreate lesson in Python with a .dta(STATA) file
  1. Load Anaconda with the desired versions of R and Python (optional) https://repo.anaconda.com/archive/
- 2.Put .dta file in your desired location
- 3. Edit 
+ 2. Put .dta file in your desired location
+ 3. Load the 534-Heteroskedasticity.ipynb
+ 4. Edit the 534-Heteroskedasticity.ipynb file to change file locations
+ 5. Execute
+ To recreate lesson in Python with Oracle file
+ 1.Load Anaconda with the desired versions of R and Python (optional) https://repo.anaconda.com/archive/
+ 2. Put .csv files in desired location
+ 3. Run SQL in 534-HethomePriceCreateTables.txt to create tables in your Oracle database (db password is in file)
+ 4. Edit the Load_homepricev1.txt for file locations and save as a .ctl file
+ 5. Edit the Load_hprice1.txt file for file locations and save as a .ctl file
+ 4. Edit and run the sqlloader program for each file from your command prompt to import the data
+  4a. --C:\Oracle>sqlldr C##HET C:\Users\jfras\OneDrive\UND\534AppliedEcon\Datasets\Load_homepricev10.ctl
+--Password
+ 4b. --C:\Oracle>sqlldr C##HET C:\Users\jfras\OneDrive\UND\534AppliedEcon\Datasets\Load_hprice1.ctl
+--Password:
+ 5. Load the 534-Heteroskedasticity-OracleConnect.ipynb
+ 6. Edit the 534-Heteroskedasticity-OracleConnect.ipynb file to change file locations
+ 7. Execute
+ 
