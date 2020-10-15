@@ -24,4 +24,3 @@ To recreate lesson in Python with a .dta(STATA) file
  5. Load the 534-Heteroskedasticity-OracleConnect.ipynb
  6. Edit the 534-Heteroskedasticity-OracleConnect.ipynb file to change file locations
  7. Execute
- 
