@@ -9,6 +9,7 @@ To recreate lesson in Python with a .dta(STATA) file
  3. Load the 534-Heteroskedasticity.ipynb
  4. Edit the 534-Heteroskedasticity.ipynb file to change file locations
  5. Execute
+ 
  To recreate lesson in Python with Oracle file
  1.Load Anaconda with the desired versions of R and Python (optional) https://repo.anaconda.com/archive/
  2. Put .csv files in desired location
