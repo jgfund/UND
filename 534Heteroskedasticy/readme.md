@@ -10,8 +10,8 @@ To recreate lesson in Python with a .dta(STATA) file
  4. Edit the 534-Heteroskedasticity.ipynb file to change file locations
  5. Execute
  
- To recreate lesson in Python with Oracle file
- 1.Load Anaconda with the desired versions of R and Python (optional) https://repo.anaconda.com/archive/
+To recreate lesson in Python with Oracle file
+ 1. Load Anaconda with the desired versions of R and Python (optional) https://repo.anaconda.com/archive/
  2. Put .csv files in desired location
  3. Run SQL in 534-HethomePriceCreateTables.txt to create tables in your Oracle database (db password is in file)
  4. Edit the Load_homepricev1.txt for file locations and save as a .ctl file
