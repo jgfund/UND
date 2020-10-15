@@ -1,0 +1,26 @@
+OPTIONS(errors=2,load=500,skip=1)
+
+LOAD DATA 
+INFILE 'C:\Users\jfras\OneDrive\UND\534AppliedEcon\Datasets\homepricev10.csv' 
+APPEND 
+INTO TABLE "C##Het"."homepriceV10" 
+fields terminated by ","
+(
+    ID,PRICE,FLOOR,LOT,
+	BATH,BED,BATHBED,YEAR,AGE,
+	AGESQ,GAR,STATUS,DAC,SCHOOL,
+	DED,DHA,DAD,DCR,DPA 
+)
+
+OPTIONS(errors=2,load=500,skip=1)
+
+LOAD DATA 
+INFILE 'C:\Users\jfras\OneDrive\UND\534AppliedEcon\Datasets\hprice1.csv' 
+TRUNCATE 
+INTO TABLE "C##Het"."hprice1" 
+fields terminated by ","
+(
+    PRICE,ASSESS,BDRMS,LOTSIZE,
+	SQRFT,COLONIAL,LPRICE,LASSESS,LLOTSIZE,
+	LSQRFT 
+)
