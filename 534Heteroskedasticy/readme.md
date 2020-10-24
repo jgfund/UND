@@ -5,10 +5,11 @@ The 2nd version is reading files directly from Oracle creating an engine and usi
 The excercise is available for download as a Jupyter Notebook file, a python file, and is also reproduced using R.
 To recreate lesson in Python with a .dta(STATA) file
  1. Load Anaconda with the desired versions of R and Python (optional) https://repo.anaconda.com/archive/
- 2. Put .dta file in your desired location
- 3. Load the 534-Heteroskedasticity.ipynb
- 4. Edit the 534-Heteroskedasticity.ipynb file to change file locations
- 5. Execute
+ 2. If using python directly, skip step 1 and load the .py file directly into python.
+ 3. Put .dta file in your desired location
+ 4. Load the Jupyter notebook 534-Heteroskedasticity.ipynb file.
+ 5. Edit the 534-Heteroskedasticity.ipynb file  or .py to change file locations
+ 6. Execute
  
 To recreate lesson in Python with Oracle file
  1. Load Anaconda with the desired versions of R and Python (optional) https://repo.anaconda.com/archive/
